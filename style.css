@@ -1,0 +1,147 @@
+body{
+    background-color: rgba(208, 219, 236, 0.619);
+    background-image: url("backgimg.jpg");
+    /* background-size: 980px 1150px; */
+    background-position: 47% 42%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    min-height: 1rem;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.nav1{
+    border: rgb(76, 5, 76);
+    border-radius: 50px;
+    margin-left: 1rem;
+}
+.nav2{
+    margin-left: 30rem;
+    margin-right: 22rem;
+    border-radius: 30px;
+    justify-content: space-around;
+    width: 50%;
+    display: flex;
+    height: fit-content;
+    padding: 5px;
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+.nav2 div{
+    color: rgb(76, 5, 76);
+}
+.nav3{
+    color: white;
+    height: fit-content;
+    border-radius: 50px;
+    margin-left: 7rem;
+    background: rgb(76, 5, 76);
+}
+.nav4{
+    background: rgb(76, 5, 76);
+    height: fit-content;
+    color: white;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-left: 10px;
+    padding: 8px;
+    font-size: 12px;
+}
+.t1{
+    color: rgb(76, 5, 76);
+    font-size: 190px;
+    font-family: sans-serif;
+    margin-left: 21px;
+}
+.t2{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    display: flex;
+    float: right;
+    /* color: rgba(120, 138, 164, 0.966); */
+    color: rgb(84, 115, 157);
+    margin-right: 1rem;
+}
+.b{
+    display: flex;
+    justify-content: space-between;
+}
+.b1{
+    height: 210px;
+    width: 210px;
+    background-color: rgb(93, 117, 150);
+    border-radius: 20px;
+    background-image: url(b1.jpeg);
+    background-size: 195px 235px;
+    background-position: center;
+    margin-left: 2rem;
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+}
+.b2{
+    height: 210px;
+    width: 210px;
+    background: rgb(93, 117, 150);
+    border-radius: 20px;
+    color: white;
+    margin-left: 2rem;
+}
+.ose{
+    font-size: 40px;
+    font-family: system-ui;
+    font-weight: 400;
+    letter-spacing: -3px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.edn{
+    margin-left: 10%;
+    font-family: system-ui;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+#btn2{
+    border: none;
+    color: rgb(76, 5, 76);
+    border-radius: 15px;
+    background-color: white;
+    padding: 7px;
+    width: 85px;
+    font-size: 15px;
+    margin-left: 10%;
+    
+}
+.t3{
+    color: rgb(76, 5, 76);
+    font-size: 190px;
+    font-family: sans-serif;
+    position: relative;
+    right: -60px;
+}
+.arr{
+    bottom: 1rem;
+    left: 2rem;
+    color: white;
+}
+.trimedia{
+    bottom: 1rem;
+    left: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
